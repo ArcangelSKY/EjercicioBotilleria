@@ -47,8 +47,8 @@ class BotilleriaAdapter() : RecyclerView.Adapter<BotilleriaAdapter.ViewHolder>()
             itemView.setOnClickListener(View.OnClickListener {
                 Toast.makeText(
                     context,
-                    "ha presionado el dato ${botilleria.Nombre}",
-                    Toast.LENGTH_LONG
+                "ha presionado el dato ${botilleria.Nombre}",
+                Toast.LENGTH_LONG
                 ).show()
             })
 
