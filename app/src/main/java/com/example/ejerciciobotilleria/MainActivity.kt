@@ -14,15 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        recycleView = findViewById(R.id.recycleView)
         configRecycle()
-
     }
     fun configRecycle(){
-        recycleView = findViewById(R.id.recycleView) as RecyclerView
+
         recycleView.setHasFixedSize(true)
         recycleView.layoutManager = LinearLayoutManager(this)
-        Badapter.RecyclerAdapter(ingresoDatos(),this)
+        Badapter.BotilleriaAdapter(ingresoDatos(),this)
         recycleView.adapter = Badapter
 
 
