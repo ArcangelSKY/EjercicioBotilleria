@@ -27,15 +27,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun ingresoDatos():MutableList<Botilleria>{
-        var botilleria:MutableList<Botilleria> = ArrayList()
-        botilleria.add(Botilleria("Santa Helena","Vino Añiejo","Chileno","Garrafa 5 litros",4750,R.drawable.b0))
-        botilleria.add(Botilleria("Bauzá","Pisco","España","Botella 750 CC",10290,R.drawable.b1))
-        botilleria.add(Botilleria("Chivas Regal","Whisky","España","Botella 750 CC",49990,R.drawable.b2))
-        botilleria.add(Botilleria("Absolut Blue","Vodka","Suecia","Botella 750 CC",14290,R.drawable.b3))
-        botilleria.add(Botilleria("Jim Beam","Vodka","Estados Unidos","Botella 700 CC",15490,R.drawable.b4))
-        botilleria.add(Botilleria("Jose Cuervo Blanco 40°","Tequila","México","Botella 700 CC",15490,R.drawable.b5))
-        botilleria.add(Botilleria("Barcelo Gran Añejo","Ron","España","Botella 700 CC",10290,R.drawable.b6))
-        return botilleria
-    }
 }
