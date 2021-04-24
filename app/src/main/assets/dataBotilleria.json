@@ -1,6 +1,6 @@
 {
   "status":"success",
-  "Botilleria": [
+  "botilleria": [
     {"nombre":"Santa Helena","tipo":"Vino Añiejo","Pais": "Chile", "Formato": "Garrafa 5 Litros", "Precio": "4750"},
     {"nombre": "Bauzá", "TipoLicor": "Pisco", "Pais": "España", "Formato": "Botella 750 cc", "Precio": "10290"},
     {"nombre": "Chivas Regal", "TipoLicor": "Whisky", "Pais": "España", "Formato": "Botella 750 cc", "Precio": "49990"},
